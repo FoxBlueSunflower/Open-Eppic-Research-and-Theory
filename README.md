@@ -142,7 +142,7 @@ This repository contains the strategic framework for Open Eppic. The founder doe
 ## **Documentation**
 
 ### **Foundational Documents**
-- [Constitutional Charter](MVP/OPEN-EPPIC-CONSTITUTIONAL-CHARTER.md) - The nine immutable principles
+- [Constitutional Charter](MVP/OPEN_EPPIC_CONSTITUTIONAL_CHARTER.md) - The nine immutable principles
 - [Operating Agreement](MVP/OPERATING-AGREEMENT.docx.md) - Company structure and governance
 - [Why This Matters](Why-it-Matters) - The case for Open Eppic
 
