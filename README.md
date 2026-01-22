@@ -143,19 +143,19 @@ This repository contains the strategic framework for Open Eppic. The founder doe
 
 ### **Foundational Documents**
 - [Constitutional Charter](MVP/OPEN_EPPIC_CONSTITUTIONAL_CHARTER.md) - The nine immutable principles
-- [Operating Agreement](MVP/OPERATING-AGREEMENT.docx.md) - Company structure and governance
-- [Why This Matters](Why-it-Matters) - The case for Open Eppic
+- [Operating Agreement](MVP/OPERATING_AGREEMENT.docx.md) - Company structure and governance
+- [Why This Matters](Why_it_Matters) - The case for Open Eppic
 
 ### **Legal Framework**
-- [Terms of Service](MVP/TERMS-OF-SERVICE.md)
-- [Privacy Policy](MVP/OPEN-EPPIC-PRIVACY-POLICY.md)
-- [Content Guidelines](MVP/OPEN-EPPIC-CONTENT-GUIDELINES.md)
-- [Element Guidelines](MVP/OPEN-EPPIC-ELEMENT-GUIDELINES.md)
-- [Legal Relationship Between Creators](Strategic/OPEN-EPPIC_-LEGAL-RELATIONSHIP-BETWEEN-ORIGINAL-AND-DERIVATIVE-CREATORS.md)
+- [Terms of Service](MVP/TERMS_OF_SERVICE.md)
+- [Privacy Policy](MVP/OPEN_EPPIC_PRIVACY_POLICY.md)
+- [Content Guidelines](MVP/OPEN_EPPIC_CONTENT_GUIDELINES.md)
+- [Element Guidelines](MVP/OPEN_EPPIC_ELEMENT_GUIDELINES.md)
+- [Legal Relationship Between Creators](Strategic/OPEN_EPPIC_LEGAL_RELATIONSHIP_BETWEEN_ORIGINAL_AND_DERIVATIVE_CREATORS.md)
 
 ### **For Creators**
-- [Creator Guide](Strategic/Open-Eppic-Creator-Guide.md)
-- [Strategic Decisions Log](Strategic/OPEN-EPPIC-DEFERRED-FEATURES-&-DECISIONS.md)
+- [Creator Guide](Strategic/Open_Eppic_Creator_Guide.md)
+- [Strategic Decisions Log](Strategic/OPEN_EPPIC_DEFERRED_FEATURES_&_DECISIONS.md)
 
 ### **Technical**
 - [Database Schema](MVP/xano_schema_prompt.txt)
