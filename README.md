@@ -151,7 +151,7 @@ This repository contains the strategic framework for Open Eppic. The founder doe
 - [Privacy Policy](MVP/OPEN_EPPIC_PRIVACY_POLICY.md)
 - [Content Guidelines](MVP/OPEN_EPPIC_CONTENT_GUIDELINES.md)
 - [Element Guidelines](MVP/OPEN_EPPIC_ELEMENT_GUIDELINES.md)
-- [Legal Relationship Between Creators](Strategic/OPEN_EPPIC__LEGAL_RELATIONSHIP_BETWEEN_ORIGINAL_AND_DERIVATIVE_CREATORS.md)
+- [Legal Relationship Between Creators](Strategic/OPEN_EPPIC_LEGAL_RELATIONSHIP_BETWEEN_ORIGINAL_AND_DERIVATIVE_CREATORS.md)
 
 ### **For Creators**
 - [Creator Guide](Strategic/Open_Eppic_Creator_Guide.md)
