@@ -252,9 +252,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## **Contact**
 
-**Email**: [YOUR EMAIL]  
-**Website**: [YOUR WEBSITE] (if applicable)  
-**Social**: [TWITTER/LINKEDIN] (if applicable)
+**Email**: [openeppic@gmail.com]  
 
 ---
 
