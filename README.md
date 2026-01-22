@@ -158,7 +158,7 @@ This repository contains the strategic framework for Open Eppic. The founder doe
 - [Strategic Decisions Log](Strategic/OPEN-EPPIC-DEFERRED-FEATURES-&-DECISIONS.md)
 
 ### **Technical**
-- [Database Schema](xano_schema_prompt.txt)
+- [Database Schema](MVP/xano_schema_prompt.txt)
 
 ---
 
