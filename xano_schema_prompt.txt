@@ -1,0 +1,115 @@
+Create the following 15 database tables with the specified fields. Use integer auto-increment IDs for all tables. Create tables in order listed (references depend on earlier tables).
+
+---
+
+TABLE 1: user
+- email (text, required, unique)
+- username (text, required, unique)
+- password (password)
+- is_over_13 (boolean, required, default false)
+- email_verified (boolean, default false)
+- account_status (text, default "active")
+- created_at (timestamp, auto-create)
+- last_login_at (timestamp)
+
+TABLE 2: user_profile
+- user_id (table reference → user, required, unique)
+- bio (text)
+- avatar_url (text)
+- website_url (text)
+- updated_at (timestamp, auto-update)
+
+TABLE 3: brand
+- user_id (table reference → user, required)
+- name (text, required)
+- slug (text, required, unique)
+- bio (text)
+- avatar_url (text)
+- is_primary (boolean, default false)
+- is_active (boolean, default true)
+- created_at (timestamp, auto-create)
+
+TABLE 4: element
+- brand_id (table reference → brand, required)
+- element_type (text, required)
+- name (text, required)
+- slug (text, required)
+- description (text)
+- word_count (integer, default 0)
+- is_original (boolean, default true)
+- is_public_domain (boolean, default false)
+- public_domain_source (text)
+- is_public (boolean, default false)
+- published_at (timestamp)
+- moderation_status (text, default "pending")
+- view_count (integer, default 0)
+- usage_count (integer, default 0)
+- derivative_count (integer, default 0)
+- thumbnail_url (text)
+- created_at (timestamp, auto-create)
+- updated_at (timestamp, auto-update)
+- deleted_at (timestamp)
+
+TABLE 5: element_work
+- element_id (table reference → element, required, unique)
+- synopsis (text)
+- work_type (text, default "standalone")
+- work_status (text, default "in_progress")
+- chapter_count (integer, default 0)
+- total_word_count (integer, default 0)
+
+TABLE 6: element_chapter
+- element_id (table reference → element, required, unique)
+- work_id (table reference → element, required)
+- chapter_number (integer, required)
+- content (text)
+
+TABLE 7: element_setting
+- element_id (table reference → element, required, unique)
+- parent_setting_id (table reference → element_setting)
+
+TABLE 8: element_plot
+- element_id (table reference → element, required, unique)
+- order_number (integer)
+
+TABLE 9: element_link
+- source_id (table reference → element, required)
+- target_id (table reference → element, required)
+- link_type (text, required)
+- created_at (timestamp, auto-create)
+
+TABLE 10: derivative_source
+- derivative_id (table reference → element, required)
+- source_id (table reference → element, required)
+- created_at (timestamp, auto-create)
+
+TABLE 11: tag
+- name (text, required, unique)
+- slug (text, required, unique)
+- category (text, required)
+- usage_count (integer, default 0)
+
+TABLE 12: element_tag
+- element_id (table reference → element, required)
+- tag_id (table reference → tag, required)
+
+TABLE 13: collection
+- user_id (table reference → user, required)
+- name (text, required)
+- is_public (boolean, default false)
+- item_count (integer, default 0)
+- created_at (timestamp, auto-create)
+
+TABLE 14: collection_item
+- collection_id (table reference → collection, required)
+- element_id (table reference → element, required)
+- added_at (timestamp, auto-create)
+
+TABLE 15: element_endorsement
+- element_id (table reference → element, required)
+- work_id (table reference → element, required)
+- endorser_user_id (table reference → user, required)
+- endorsement_type (text, required)
+- endorsement_text (text)
+- is_active (boolean, default true)
+- created_at (timestamp, auto-create)
