@@ -1,4 +1,10 @@
 # Open-Eppic
+
+!!!!Read First!!!!
+Don't take any of this as established. This is a big file dump of ideas and possible solutions.
+Much of the philosophy and ideas have been altered, such as a new application of Deming philosophies have greatly shifted much of this.
+
+
 A constitutional framework for collaborative storytelling where creators build on each other's work. Solves the derivative works problem through immutable governance, perpetual licensing, and protection for both original and derivative creators. Faith-based, open-source, forkable.
 
 This body of work was done prior to application of Dr. Edward Deming's philosophies and can be improved according to the practice of those philosophies and methods.
