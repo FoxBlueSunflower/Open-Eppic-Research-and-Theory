@@ -1,5 +1,9 @@
 # Open Eppic
 
+> **Start here:** [Fanfiction Making Money: Resolved?](./fanfiction-making-money-resolved.md)
+> is the conclusion of this project: why the market already answered the
+> question Open Eppic set out to solve, and the road that got there.
+
 **The mission and governance home for a constitutional framework for collaborative storytelling.**
 
 Open Eppic exists to answer one question: how can creators legally build on each other's work — without one party exploiting the other, and without a platform quietly rewriting the deal later?
